@@ -1,0 +1,69 @@
+version: 3
+domain: telecom
+document_outline: Overview of telecommunications technologies and services
+created_by: mrigankapaul
+seed_examples:
+  - context: |
+      Fiber optic internet is a broadband connection that uses fiber optic cables made of thin strands
+      of glass or plastic to transmit data using light. These cables can transmit data at speeds up to
+      10 Gbps or higher, making them significantly faster than traditional copper connections.
+    questions_and_answers:
+      - question: What is fiber optic internet?
+        answer: |
+          Fiber optic internet is a broadband connection that uses fiber optic cables made of thin strands
+          of glass or plastic to transmit data using light signals instead of electrical signals.
+      - question: What materials are fiber optic cables made from?
+        answer: Fiber optic cables are made from thin strands of glass or plastic that can transmit light signals.
+      - question: How fast can fiber optic internet transmit data?
+        answer: |
+          Fiber optic internet can transmit data at speeds up to 10 Gbps or higher, which is significantly
+          faster than traditional copper-based connections.
+  - context: |
+      5G is the fifth generation of cellular network technology, offering significantly faster data
+      transmission speeds, lower latency, and greater capacity than previous generations. 5G networks
+      operate on higher frequency bands and use smaller cell sites than 4G networks.
+    questions_and_answers:
+      - question: What is 5G technology?
+        answer: 5G is the fifth generation of cellular network technology that offers faster speeds, lower latency, and greater capacity than previous generations.
+      - question: How does 5G differ from previous cellular network generations?
+        answer: 5G operates on higher frequency bands, uses smaller cell sites, and provides significantly faster data transmission speeds and lower latency than 4G and earlier generations.
+      - question: What are the advantages of 5G for mobile users?
+        answer: 5G provides mobile users with dramatically faster download and upload speeds, more reliable connections, and the ability to connect more devices simultaneously.
+  - context: |
+      VoIP (Voice over Internet Protocol) is a technology that allows voice calls to be made over
+      internet connections rather than traditional phone lines. It converts analog voice signals into
+      digital data packets that are transmitted over IP networks.
+    questions_and_answers:
+      - question: What is VoIP technology?
+        answer: VoIP (Voice over Internet Protocol) is a technology that allows voice calls to be made over internet connections rather than traditional phone lines.
+      - question: How does VoIP work?
+        answer: VoIP works by converting analog voice signals into digital data packets that are transmitted over IP networks, then converted back to voice at the receiving end.
+      - question: What are the benefits of using VoIP over traditional phone services?
+        answer: VoIP offers benefits such as lower costs (especially for long-distance calls), greater flexibility, enhanced features like video conferencing, and the ability to make calls from multiple devices.
+  - context: |
+      Satellite internet provides connectivity through communications satellites rather than land-based
+      cables. It's particularly valuable for remote areas where traditional infrastructure is limited or
+      absent. Modern satellite internet services can offer download speeds of up to 100 Mbps.
+    questions_and_answers:
+      - question: What is satellite internet?
+        answer: Satellite internet is a connectivity solution that transmits data through communications satellites orbiting Earth rather than through land-based cables.
+      - question: Where is satellite internet most valuable?
+        answer: Satellite internet is most valuable in remote or rural areas where traditional cable or fiber infrastructure is limited or entirely absent.
+      - question: What speeds can modern satellite internet achieve?
+        answer: Modern satellite internet services can offer download speeds of up to 100 Mbps, though they typically have higher latency than land-based connections.
+  - context: |
+      Network latency refers to the time delay between when data is sent and when it's received across
+      a network, typically measured in milliseconds. Low latency is crucial for applications requiring
+      real-time interaction, such as video calls, online gaming, and industrial control systems.
+    questions_and_answers:
+      - question: What is network latency?
+        answer: Network latency is the time delay between when data is sent and when it's received across a network, typically measured in milliseconds.
+      - question: Why is low latency important in telecommunications?
+        answer: Low latency is important for applications requiring real-time interaction, such as video calls, online gaming, financial trading, and industrial control systems.
+      - question: What factors can increase network latency?
+        answer: Network latency can be increased by physical distance between endpoints, network congestion, routing equipment performance, and the use of certain transmission media like satellite connections.
+document:
+  repo: https://github.com/instructlab/taxonomy.git
+  commit: main
+  patterns:
+    - README.md

@@ -1,0 +1,26 @@
+Existing config file was found in:
+    /Users/mrigankapaul/.config/instructlab/config.yaml
+
+Existing system profiles were found in:
+    /Users/mrigankapaul/.local/share/instructlab/internal/system_profiles
+
+Path to taxonomy repo [/Users/mrigankapaul/.local/share/instructlab/taxonomy]:
+
+Path to your model [/Users/mrigankapaul/.cache/instructlab/models/granite-7b-lab-Q4_K_M.gguf]
+
+Generating config file and profiles:
+    /Users/mrigankapaul/.config/instructlab/config.yaml
+    /Users/mrigankapaul/.local/share/instructlab/internal/system_profiles
+
+
+
+INFO 2025-05-21 06:10:56,604 instructlab.model.download:302: Available models (`ilab model list`):
++--------------------------------------------+---------------------+----------+------------------------------------------------------------------------------------+
+| Model Name                                 | Last Modified       | Size     | Absolute path                                                                      |
++--------------------------------------------+---------------------+----------+------------------------------------------------------------------------------------+
+| merlinite-7b-lab-Q4_K_M.gguf               | 2025-05-16 09:36:06 | 4.1 GB   | /Users/mrigankapaul/.cache/instructlab/models/merlinite-7b-lab-Q4_K_M.gguf         |
+| ibm-granite/granite-embedding-125m-english | 2025-05-16 09:37:39 | 479.2 MB | /Users/mrigankapaul/.cache/instructlab/models/ibm-granite                          |
+| mistral-7b-instruct-v0.2.Q4_K_M.gguf       | 2025-05-16 09:37:24 | 4.1 GB   | /Users/mrigankapaul/.cache/instructlab/models/mistral-7b-instruct-v0.2.Q4_K_M.gguf |
+| granite-7b-lab-Q4_K_M.gguf                 | 2025-05-16 09:34:47 | 3.8 GB   | /Users/mrigankapaul/.cache/instructlab/models/granite-7b-lab-Q4_K_M.gguf           |
++--------------------------------------------+---------------------+----------+------------------------------------------------------------------------------------+
+(venv) (.venv) mrigankapaul@mpaul1-mac blog % 
