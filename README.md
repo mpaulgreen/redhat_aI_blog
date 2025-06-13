@@ -1,6 +1,6 @@
 # Enhancing AI Developer Experience with Red Hat: A Practical Guide to InstructLab and RHEL AI
 
-In today's rapidly evolving technological landscape, artificial intelligence has become a cornerstone of innovation for enterprises across industries. However, developing, deploying, and managing AI applications at scale presents significant challenges that many organizations struggle to overcome. Red Hat's comprehensive AI portfolio—including InstructLab, Red Hat Enterprise Linux (RHEL) AI, and OpenShift AI—offers a powerful solution to these challenges, enabling a seamless developer experience while maintaining enterprise-grade reliability and security.
+In today's rapidly evolving technological landscape, artificial intelligence has become a cornerstone of innovation for enterprises across industries. However, developing, deploying, and managing AI applications at scale presents significant challenges that many organizations struggle to overcome. Red Hat's comprehensive AI portfolio—including InstructLab , Red Hat® Enterprise Linux® (RHEL) AI, and Red Hat® OpenShift® AI—offers a powerful solution to these challenges, enabling a seamless developer experience while maintaining enterprise-grade reliability and security.
 
 ## The Current State of AI Development Challenges
 
@@ -1116,6 +1116,14 @@ The telecommunications customer support example shows how these tools can be use
 - Accelerate AI development with user-friendly tools that don't require deep ML knowledge
 - Deploy models in a secure, enterprise-ready environment
 - Iterate quickly based on real-world testing and feedback
+
+### Important Considerations for QLoRA Training using InstructLab
+**QLoRA training works well when**
+1. You're teaching the model domain-specific knowledge and tone, not fundamentally changing its capabilities
+2. The base model already has strong conversational abilities
+3. You have limited compute resources (single GPU setup)
+4. The adaptation is relatively narrow in scope
+5. You can achieve good results by updating just 0.1-1% of the model's parameters
 
 ## Next Steps
 
