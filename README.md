@@ -1125,6 +1125,8 @@ The telecommunications customer support example shows how these tools can be use
 4. The adaptation is relatively narrow in scope
 5. You can achieve good results by updating just 0.1-1% of the model's parameters
 
+Use Full fine tuning of models to achieve higher quality, use more sophisticated hardware to ensure production grade model quality.
+
 ## Next Steps
 
 To continue your AI journey with Red Hat:
